@@ -1,0 +1,32 @@
+body>nav{
+
+    position: relative;
+    top: 50px;
+    right: 230px;
+    height: 600px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+body>nav>div{
+
+    width: 290px;
+    height: 60px;
+    background-color: darkturquoise;
+    transition: all 1.5s;
+    box-shadow: 2px 1px 3px 1px black;
+}
+
+
+
+body>nav>div:hover{
+    background-color: hotpink;
+    margin-left: 230px;
+    transition: all 1s;
+
+}
+
+
